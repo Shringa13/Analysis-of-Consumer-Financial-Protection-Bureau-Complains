@@ -4,22 +4,22 @@
 
 The Consumer Financial Protection Bureau is a U.S. government agency that makes sure banks, lenders, and other financial companies treat you fairly.Each week the CFPB sends thousands of consumers’ complaints about financial products and services to companies for response. Those complaints are published here after the company responds or after 15 days, whichever comes first. By adding their voice, consumers help improve the financial marketplace.
 
-## Can you automatically suggest company responses to consumers?
+### Can you automatically suggest company responses to consumers?
 Analysing Consumer Financial Protecĕon Bureau ( CFPB ) database which records complaints about financial products and services to companies for response. Every complaint provides insight into problems that people are experiencing, helping CFPB identify inappropriate practices and allowing us to stop them before they become major issues and creating an automated customer response system.
 
-## Dataset Features
+### Dataset Features
 
-**Date Received  :**               Date on which CFPB receives complaint
-**Date Sent to Company  :**        Date complaint sent to Company
-**Product :**                      Type of Product Consumer describe in complaint
-**Sub Product :**                  Type of Sub Product mentioned by Consumer
-**Issue :**                        Issue Consumer raised in complaint
-**Sub - Issue :**                  Sub Issue of the complaint
-**Consumer Complaint Narrative :** Consumer narrates what happened. Consumer should also opt for sharing the narrative on which CFPB                                        takes required steps on complaint.
-**Company :**                      Company Name
-**State :**                        Mailing state of the complaint
-**Company Response to Consumer :** How company responded on complaint
-**Timely Response ? :**            Yes or No
+**Date Received  :**               Date on which CFPB receives complaint.  
+**Date Sent to Company  :**        Date complaint sent to Company.  
+**Product :**                      Type of Product Consumer describe in complaint.  
+**Sub Product :**                  Type of Sub Product mentioned by Consumer.  
+**Issue :**                        Issue Consumer raised in complaint.  
+**Sub - Issue :**                  Sub Issue of the complaint.  
+**Consumer Complaint Narrative :** Consumer narrates what happened. Consumer should also opt for sharing the narrative on which CFPB                                        takes required steps on complaint.  
+**Company :**                      Company Name.  
+**State :**                        Mailing state of the complaint.  
+**Company Response to Consumer :** How company responded on complaint.  
+**Timely Response ? :**            Yes or No.  
 
 After reviewing the CFPB consumer complaint dataset we identified eight possible responses a consumer complaint may receive from a company. These company responses are our class labels and they are:
 1. Closed with explanation: 494,738 records
