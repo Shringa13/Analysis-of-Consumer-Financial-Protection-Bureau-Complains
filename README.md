@@ -1,4 +1,4 @@
-# Analysis-of-Consumer-Financial-Protection-Bureau-Complains
+# Analysis of Consumer Financial Protection Bureau Complains
 
 <p align="center">
   <img src="https://github.com/Shringa13/Analysis-of-Consumer-Financial-Protection-Bureau-Complains/blob/master/imgs/CFPB_RGB-1024x623.png" width="400" title="Crime Rate">
