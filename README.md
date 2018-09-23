@@ -1,7 +1,7 @@
 # Analysis-of-Consumer-Financial-Protection-Bureau-Complains
 
 <p align="center">
-  <img src="https://github.com/Shringa13/Analysis-of-Consumer-Financial-Protection-Bureau-Complains/blob/master/imgs/CFPB_RGB-1024x623.png" width="200" title="Crime Rate">
+  <img src="https://github.com/Shringa13/Analysis-of-Consumer-Financial-Protection-Bureau-Complains/blob/master/imgs/CFPB_RGB-1024x623.png" width="400" title="Crime Rate">
 </p>
 The Consumer Financial Protection Bureau is a U.S. government agency that makes sure banks, lenders, and other financial companies treat you fairly.Each week the CFPB sends thousands of consumers’ complaints about financial products and services to companies for response. Those complaints are published here after the company responds or after 15 days, whichever comes first. By adding their voice, consumers help improve the financial marketplace.
 
@@ -22,14 +22,25 @@ Analysing Consumer Financial Protecĕon Bureau ( CFPB ) database which records c
 **Company Response to Consumer :** How company responded on complaint.  
 **Timely Response ? :**            Yes or No.  
 
+## Primary Goal
+We are majorly trying to create a model and able to categorize data from the given input and predict their
+respecĕve categories. There are primarily 3 categories on which we are focusing:
+
+**1) General Explanation Case ‐** Complaints not regarding to money.  
+**2) NonMonetary Relief Case ‐** Complaints regarding to money but because of some reason customer not get any monetary relief.  
+**3) Monetary Relief Case ‐** where complaints regarding to money and customer get monetary relief a├er
+complaint and data provided checked.  
+
 After reviewing the CFPB consumer complaint dataset we identified eight possible responses a consumer complaint may receive from a company. These company responses are our class labels and they are:
-1. Closed with explanation: 494,738 records
-2. Closed with monetary relief: 45,006 records
-3. Closed with non-monetary relief: 84,818 records
-4. Closed with relief: 5,252 records
-5. Closed with without relief: 17,601 records
-6. Closed: 15,796 records
-7. In progress: 2,105 records
-8. Untimely response: 3,507 records
+
+**1. Closed with explanation:**          494,738 records  
+**2. Closed with monetary relief:**      45,006 records  
+**3. Closed with non-monetary relief:**  84,818 records  
+**4. Closed with relief:**               5,252 records  
+**5. Closed with without relief:**       17,601 records  
+**6. Closed:**                           15,796 records  
+**7. In progress:**                      2,105 records  
+**8. Untimely response:**                3,507 records  
+
 Our purpose is to predict what a company’s response to a complaint would be. If we can find a pattern in the dataset of how companies respond to complaints of a certain category, we may be able to predict with some accuracy the probability of a complaint getting any of the eight response labels. We narrow our prediction scope to the first three labels because they make up over 93% of the entire dataset which contains 668,824 records.
 
