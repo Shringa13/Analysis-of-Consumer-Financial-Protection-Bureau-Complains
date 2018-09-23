@@ -1,7 +1,7 @@
 # Analysis-of-Consumer-Financial-Protection-Bureau-Complains
 
-<p align="left">
-  <img src="https://github.com/Shringa13/Analysis-of-Consumer-Financial-Protection-Bureau-Complains/blob/master/imgs/CFPB_RGB-1024x623.png" width="600" title="Crime Rate">
+<p align="center">
+  <img src="https://github.com/Shringa13/Analysis-of-Consumer-Financial-Protection-Bureau-Complains/blob/master/imgs/CFPB_RGB-1024x623.png" width="400" title="Crime Rate">
 </p>
 
 The Consumer Financial Protection Bureau is a U.S. government agency that makes sure banks, lenders, and other financial companies treat you fairly.Each week the CFPB sends thousands of consumers’ complaints about financial products and services to companies for response. Those complaints are published here after the company responds or after 15 days, whichever comes first. By adding their voice, consumers help improve the financial marketplace.
